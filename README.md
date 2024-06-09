@@ -65,3 +65,16 @@ To get inference results for DuEE-fin dataset, choose the best checkpoint on dev
 ```bash
 $ bash duee_inference.sh
 ```
+
+### Citation
+
+If you find our work useful to your research, you can cite the paper below:
+```bash
+@inproceedings{huang2023iteratively,
+  title={An iteratively parallel generation method with the pre-filling strategy for document-level event extraction},
+  author={Huang, Guanhua and Xu, Runxin and Zeng, Ying and Chen, Jiaze and Yang, Zhouwang and Weinan, E},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={10834--10852},
+  year={2023}
+}
+```
