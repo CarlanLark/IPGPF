@@ -11,7 +11,7 @@ DuEE-fin Link: (https://aistudio.baidu.com/aistudio/competition/detail/46)
 
 1. Download the data from the link above.
 ```bash
-cd IGDEE
+cd IPGPF
 mkdir ./Data 
 ```
 2. For ChFinAnn data, unzip it to the `./Data` dictionary.
@@ -26,7 +26,7 @@ python3 build_duee_data.py
 ```bash
 # For a machine with 8 GPUs
 # ChFinAnn dataset
-$ bash train_chinann.sh 8
+$ bash train_chfinann.sh 8
 # DuEE-fin dataset
 $ bash train_duee.sh 8
 ```
@@ -42,7 +42,7 @@ dataset = ['ChFinAnn', 'DuEE-fin'][1]
 Regarding the control variable settings, 
 ```bash
 # ChFinAnn dataset
-$ bash train_chinann_CV.sh 8
+$ bash train_chfinann_CV.sh 8
 # DuEE-fin dataset
 $ bash train_duee_CV.sh 8
 ```
